@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bliss Cosmetics | About Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/icon.png" type="image/gif" sizes="250x250">
+	<meta charset="utf-8">
+</head>
+<body>
+	<!-- NAV BUTTON BAR HTML -->
+	<div class="tab">
+		<button><a href="contact.html" style="text-decoration: none; color: #fff;">CONTACT</button></a>
+		<button class="links" onclick="options(event, 'Review')">REVIEW</button>
+		<button class="links" onclick="options(event, 'Promo')">PROMO</button>
+		<button><a href="bliss homepage.html" style="text-decoration: none; color: #fff;">GO HOME</a></button>
+		<a href="bliss homepage.html"><img src="img/logos.png" height="100" width="300"></a>
+	</div>
+
+
+
+<div class="header-image-about"> 	
+
+	<div id="Review" class="content">
+		<center>
+		<table class="reviews">
+ 			<caption>THANKYOU FOR TRUSTING BLISS COSMETICS ONLINE PAGE</caption>
+ 			<tr>
+ 				<th><img src="img/review1.jpg" height="300" width="300"></th>
+ 				<th><img src="img/review2.jpg" height="300" width="300"></th>
+ 				<th><img src="img/review4.jpg" height="300" width="300"></th>
+ 				<th><h1></h1></th>
+ 			
+ 			</tr>
+ 		</table>
+ 		</center>
+	</div>
+	<div id="Promo" class="content">
+		<table class="promo">
+ 			<caption>PROMO OPENING FOR THE BLISS COSMETICS PRODUCT</caption>
+ 			<tr>
+ 				<th><img src="img/promo1.jpg" height="300" width="300"></th>
+ 				<th><img src="img/promo2.png" height="300" width="300"></th>
+ 				<th><img src="img/promo3.png" height="300" width="300"></th>
+ 				<th><img src="img/promo4.jpg" height="300" width="300"></th>
+ 			</tr>
+ 		</table>
+	</div>
+</div>
+
+	<script>
+		function options(evt, OLFU){
+			var it, content, links;
+
+			content = document.getElementsByClassName("content");
+				for(it = 0; it < content.length; it++){
+					content[it].style.display = "none";
+				}
+			links = document.getElementsByClassName("links");
+				for(it = 0; it < links.length; it++){
+					links[it].className = links[it].className.replace(" active","");
+				}
+				document.getElementById(OLFU).style.display = "block";
+				evt.currentTarget.className += " active";
+		}
+	</script>
+
+	<!-- HEADER HTML -->
+		<table class="about-us-img">	
+		<center>
+			<h1 style="font-family: arial Rounded mt;">MEET OUR TEAM</h1>
+		</center>
+ 		<tr>
+ 			<th><img src="img/nathan.jpg" width="300" height="300">
+ 				<p><br>Marc Nathan Valdez | <i>Chief Executive Officer (CEO)
+ 				</i></p>
+ 			</th>
+ 			<th><img src="img/jemeca.jpg" width="300" height="300">
+ 				<p><br>Jemeca Hermosa | <i>Chief Operating Officer (COO)</i></p>
+ 			</th>
+ 			<th><img src="img/yurkis.jpg" width="300" height="300">
+ 				<p><br> Eukris G. Bartolay | <i>Chief Financial Officer (CFO)</i></p>
+ 			</th>
+ 		</tr>
+
+ 	</table>
+		<div class="header-about">
+			<hr style="width:750px; height:2px; border-width:5; color:pink; background-color:pink">
+
+		
+	<div class="our-story">
+		<br>
+		<h1>OUR STORY</h1>
+		<p><p> Welcome to Bliss Cosmetic Company - already known for its beautiful products. as of now<br> we are going to release our own line of Lip product. It was Founded on April 17, 2021 it <br>is a joint venture by a group of friends that is already known to the cosmetic industries in<br> the Philippines they launch successful beauty product and now they are launching their own<br> line of Lip Product, these people are Mr Valdez, Ms Hermosa, and Mr Bartolay. <br><br>Bliss lip tint is a cosmetic product that help our customer to become more beautiful and more<br> confident on their own it brings out the best version of themselves when they apply it Because<br> that was the mission of our company we are more than a business we are company that help<br> people regain their confidence and becomethe most beautiful among the rest.  </p></p>
+		<br>
+	</div>	
+	
+	<div class="our-quality">
+		<br>
+		<h1>WHAT WE DO</h1>
+		<h4><i>"Let your beauty shine from within"</i></h4>
+	<table class= "table-our-quality">		
+ 		<tr>
+ 			<th><p>"We're focused on creating the world's best user experience for making up that empowers poeple to used our product to stand out and have their confidence to go outside</p></th>
+ 			<th><p>"We're focused on creating the world's best user experience for making up that empowers poeple to used our product to stand out and have their confidence to go outside</p></th>
+ 		</tr>
+ 	</table>
+		<br>
+	</div>	
+	<hr style="width:450px; height:2px; border-width:5; color:pink; background-color:pink">
+	<hr style="width:1050px; height:2px; border-width:5; color:pink; background-color:pink">
+		
+		<footer>
+			
+ 	<table class="footer-table">		
+ 		<tr>
+ 			<th><h1>CONNECT</h1><br>
+ 			<a href="https://www.facebook.com/blisscosmeticsandboutiqueph"><img src="img/fb.png" height="50" width="90"></a>
+ 			<a href="//shopee.ph/bliss.est.2021?smtt=0.0.9"><img src="img/shopee.png" height="50" width="70"></a>
+ 			<a href="file:///C:/Users/marcn/OneDrive/Desktop/New%20folder%20(2)/MidTerm%20Exam%20WebDev/bliss%20homepage.html"><img src="img/icon.png" height="50" width="70"></a>
+ 			<a href="https://www.tiktok.com/@blisscosmetics1?lang=en"><img src="img/tiktok.png" height="50" width="60"></a><br>
+ 			<h4>Connect now to the sites we're you<br> can have the information and buy our beautiful product</h4>
+ 			</th>
+ 			<th><h1>CUSTOMER SERVICE</h1><br>
+ 				<h4><u>Landline: 123-456-234<br>
+ 				Cellphone: +63093284821<br>
+ 				Email: BlissCosmetics@gmail.com<br>
+ 					   BlissCosmetics1@yahoo.com</u>
+ 				</h4>
+ 			</th>
+ 			<th><h1>ABOUT US</h1><br>
+	 			<p>Bliss Cosmetic Company - already known for<br> its beautiful products.It was Founded <br>on April 17, 2021 itis a joint venture by a group
+				of <br>friends that is already known to the cosmetic industries<br> in the Philippines they launch successful beauty<br>
+				product and now they are launching theirown<br> 	
+ 				</th>
+ 			<th></th>
+ 		</tr>
+
+ 	</table>
+
+		</footer>
+	</body>
+</html>

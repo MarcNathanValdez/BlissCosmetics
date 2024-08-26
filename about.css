@@ -1,0 +1,7 @@
+.header-image{
+  display: none;
+  background-image:url('about-header-img.jpg');
+  width: 1325px;
+  padding: 16px 12px;
+  border-top: none;
+}

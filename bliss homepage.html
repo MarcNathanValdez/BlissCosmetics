@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bliss Cosmetic | Home Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" href="img/icon.png" type="image/gif" sizes="250x250">
+</head>
+<body>
+	<!-- NAV BUTTON BAR HTML -->
+	<div class="tab">
+		<button><a href="contacts.html" style="text-decoration: none; color: #fff;">CONTACT</button></a>
+		<button class="links" onclick="options(event, 'Review')">REVIEW</button>
+		<button class="links" onclick="options(event, 'Promo')">PROMO</button>
+		<button><a href="about.html" style="text-decoration: none; color: #fff;"> ABOUT</a></button>
+	
+		<a href="bliss homepage.html"><img src="img/logos.png" height="100" width="300"></a>
+	</div>
+
+
+
+	<div class="header-image"> 	
+	
+
+	<div id="Review" class="content">
+		<center>
+		<table class="reviews">
+ 		<caption>THANKYOU FOR TRUSTING BLISS COSMETICS ONLINE PAGE</caption>
+ 		<tr>
+ 			<th><img src="img/review1.jpg" height="300" width="300"></th>
+ 			<th><img src="img/review2.jpg" height="300" width="300"></th>
+ 			<th><img src="img/review4.jpg" height="300" width="300"></th>
+ 			<th><h1></h1></th>
+ 			
+ 		</tr>
+ 	</table>
+ 	</center>
+	</div>
+	<div id="Promo" class="content">
+		<table class="promo">
+ 		<caption>PROMO OPENING FOR THE BLISS COSMETICS PRODUCT</caption>
+ 		<tr>
+ 			<th><img src="img/promo1.jpg" height="300" width="300"></th>
+ 			<th><img src="img/promo2.png" height="300" width="300"></th>
+ 			<th><img src="img/promo3.png" height="300" width="300"></th>
+ 			<th><img src="img/promo4.jpg" height="300" width="300"></th>
+ 		</tr>
+ 	</table>
+	</div>
+
+	<div id="About" class="content">
+	
+	</div>
+</div>
+	
+	<div class="header-text">
+	<center><h1>BLIS COSMETICS LIP COLOR BRAND IN THE PHILIPPINES</h1>
+	<p><i>*Source: The Group #8 Group of the BSIT 1-Y2-3 for the beauty of women, Calendar Year 2021</i></p></center>
+	</div>
+
+	</div>
+	<script>
+		function options(evt, OLFU){
+			var it, content, links;
+
+			content = document.getElementsByClassName("content");
+				for(it = 0; it < content.length; it++){
+					content[it].style.display = "none";
+				}
+			links = document.getElementsByClassName("links");
+				for(it = 0; it < links.length; it++){
+					links[it].className = links[it].className.replace(" active","");
+				}
+				document.getElementById(OLFU).style.display = "block";
+				evt.currentTarget.className += " active";
+		}
+	</script>
+
+	<!-- HEADER HTML -->
+
+	<div class="header">
+		<video max width="800px" height="500" autoplay loop muted playsinline>
+				<source src="vid/BLISSCOSMETIC.mp4" type="video/mp4">
+				</video>
+ 
+
+		<hr class="line">
+		<h1>BLISS COSMETICS</h1>
+		<h3>POWDER MATTE STAIN | LIP AND CHEEK TINT | HD MATTIFIED TINT</h3>
+		
+	</div>
+
+	<!-- PRODUCT HTML -->
+
+	<div class="product">
+		<div style="float: right; margin-right: 150px; width: 270px; height: 220px;" >
+			<img src="img/153211084_264666368490074_3245452158154298598_n.png" class="image"alt="glee"style="width:150%; border-radius: 100px;">
+			
+			</div>
+		<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/cool.png" class="image"alt="cool"style="width:150%">
+			<h3>COOL | POWDER MATTE STAIN</h3>
+			<p>Feels weightless all day,  long lasting stain and comfortable.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: COOL
+						Type: HD Mattified Tint
+						price: P115
+					</div>
+				</div>
+			</div>	
+		<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/glee.png" class="image"alt="cool"style="width:150%">
+			<h3>GLEE | POWDER MATTE STAIN</h3>
+			<p>experience true lip color in soft matte satin finish,  long-wearing color with an ultra comfortable matte finish within minutes.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: GLEE
+						Type: HD Mattified Tint
+						price: P115
+					</div>
+				</div>
+			</div>
+	 	<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/dolly.png" class="image"alt="felicity"style="width:150%">
+			<h3>EUPHORIA | HD MATTIFIED TINT</h3>
+			<p>A long-wear,  high pigment liquid lipstick with a smooth,  lightweight comfort.</p>
+				<div class="middle">	 
+					<div class="text">
+						Itemname: EUPHORIA
+						Type: HD Mattified Tint
+						price: P115
+					</div>
+				</div>
+			</div>
+			<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/felicity.png" class="image"alt="glee"style="width:150%">
+			<h3>DOLLY | POWDER MATTE STAIN</h3>
+			<p>Rich in color, high fashion matte, stay on up to 69 hours without dark coloring.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: FELICITY
+						Type: HD Mattified Tint
+						price: P105
+					</div>
+				</div>
+			</div>
+		<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/rhapsody.png" class="image"alt="cool"style="width:150%">
+			<h3>RHAPSODY | HD MATTIFIED TINT</h3>
+			<p>Moisturizing, blurs lines and  smooth lips, completely matte finish.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: RHAPSODY
+						Type: HD Mattified Tint
+						price: P105
+					</div>
+				</div>
+			</div>	
+	 	<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/dolly.png"class="image"alt="felicity"style="width:150%">
+			<h3>FELICITY | HD MATTIFIED TINT</h3>
+			<p>Super high coverage,  soft matte lips, the make up effect can last for a long timem</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: COOL<br>
+						Type: Powder Matte Stain<br>
+						price: P105
+					</div>
+				</div>
+			</div>
+			<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/sassy.png" class="image"alt="glee"style="width:150%">
+			<h3>SASSY | POWDER MATTE STAIN</h3>
+			<p>Full pure color,  water proof,  make up effect can last for a long time.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: SASSY
+						Type: Powder Matte Stain
+						Price: P105
+					</div>
+				</div>
+			</div>
+
+
+		<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/savage.png" class="image"alt="cool"style="width:150%">
+			<h3>SAVAGE | POWDER MATTE STAIN</h3>
+			<p>Perfect for both professional and house use. </p>
+				<div class="middle">
+					<div class="text">
+						Itemname: SAVAGE
+						Type: Powder Matte Stain
+						Price: P105
+					</div>
+				</div>
+			</div>	
+	 	<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/stun.png" class="image"alt="felicity"style="width:150%">
+			<h3>STUN | POWDER MATTE STAIN</h3>
+			<p>So cool and comfortable throughout summer. </p>
+				<div class="middle">
+					<div class="text">
+						Itemname: STUN
+						Type: Powder Matte Stain
+						Price: P105
+					</div>
+				</div>
+			</div>
+			<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/delight.png" class="image"alt="felicity"style="width:150%">
+			<h3>DELIGHT | LIP AND CHEEK TINT</h3>
+			<p>The color is strong, which can effectively cover your lips without drying them out.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: DELIGHT
+						Type: Lip and Cheek Tint
+						Price: P95
+					</div>
+				</div>
+			</div>
+			<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/happiness.png" class="image"alt="felicity"style="width:150%">
+			<h3>HAPPINESS | LIP AND CHEEK TINT</h3>
+			<p>Long lasting,  make your lips more charming,  moisturizing and super hydrating effect.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: HAPPINESS
+						Type: Lip and Cheek Tint
+						Price: P95
+					</div>
+				</div>
+			</div>
+			<div class="container" style="float: right; margin-right: 150px;">
+			<img src="img/joy.png" class="image"alt="felicity"style="width:150%">
+			<h3>JOY | LIP AND CHEEK TINT</h3>
+			<p>Highly pigmented,  very easy to use.</p>
+				<div class="middle">
+					<div class="text">
+						Itemname: JOY 
+						Type: Lip and Cheek Tint
+						Price: P95
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr class="line">
+
+		<div class="DefineTypes">
+			<h1>TYPE IS A MATTER</h1>
+			<div class="row">
+				<div class="column" >
+					<h2>MATTE STAIN</h2>
+						<p>Matte Stain lip color with intenesely<br>
+						rich hydration by Bliss Cosmetics. Lips <br>
+						are kept soft ..</p>
+				</div>
+
+				<div class="column" >
+					<h2>HD MATTIFIED</h2>
+						<p>Discover a long lasting color of your <br>
+						lips by Bliss Cosmetic..</p>
+				</div>
+
+				<div class="column">
+					<h2>LIP AND CHEEK TINT</h2>
+						<p>On the hunt for the best? This matte stain <br>
+						is our one of the best selling product that<br>
+						makes your lips and cheek beauty..</p>
+				</div>
+			</div>
+		</div>
+
+		
+
+		<footer>
+			
+ 	<table class="footer-table">		
+ 		<tr>
+ 			<th><h1>CONNECT</h1><br>
+ 			<a href="https://www.facebook.com/blisscosmeticsandboutiqueph"><img src="img/fb.png" height="50" width="90"></a>
+ 			<a href="//shopee.ph/bliss.est.2021?smtt=0.0.9"><img src="img/shopee.png" height="50" width="70"></a>
+ 			<a href="file:///C:/Users/marcn/OneDrive/Desktop/New%20folder%20(2)/MidTerm%20Exam%20WebDev/bliss%20homepage.html"><img src="img/icon.png" height="50" width="70"></a>
+ 			<a href="https://www.tiktok.com/@blisscosmetics1?lang=en"><img src="img/tiktok.png" height="50" width="60"></a><br>
+ 			<h4>Connect now to the sites we're you<br> can have the information and buy our beautiful product</h4>
+ 			</th>
+ 			<th><h1>CUSTOMER SERVICE</h1><br>
+ 				<h4><u>Landline: 123-456-234<br>
+ 				Cellphone: +63093284821<br>
+ 				Email: BlissCosmetics@gmail.com<br>
+ 					   BlissCosmetics1@yahoo.com</u>
+ 				</h4>
+ 			</th>
+ 			<th><h1>ABOUT US</h1><br>
+	 			<p>Bliss Cosmetic Company - already known for<br> its beautiful products.It was Founded <br>on April 17, 2021 itis a joint venture by a group
+				of <br>friends that is already known to the cosmetic industries<br> in the Philippines they launch successful beauty<br>
+				product and now they are launching theirown<br> 	
+ 				</th>
+ 			<th></th>
+ 		</tr>
+
+ 	</table>
+
+		</footer>
+</body>	
+</htmlhttps:
